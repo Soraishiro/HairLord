@@ -4,7 +4,6 @@ from io import StringIO
 from pathlib import Path
 
 # Init model
-from pathlib import Path
 from hair_swap import HairFast,get_parser
 # import requests
 from io import BytesIO
