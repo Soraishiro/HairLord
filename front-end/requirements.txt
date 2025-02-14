@@ -48,7 +48,7 @@ Boruta==0.4.3
 boto3==1.36.13
 botocore==1.36.13
 Bottleneck==1.4.2
--e git+https://github.com/SohierDane/BigQuery_Helper@8615a7f6c1663e7f2d48aa2b32c2dbcb600a440f#egg=bq_helper
+git+https://github.com/SohierDane/BigQuery_Helper@8615a7f6c1663e7f2d48aa2b32c2dbcb600a440f#egg=bq_helper --no-build-isolation
 bqplot==0.12.43
 branca==0.8.1
 CacheControl==0.14.1
