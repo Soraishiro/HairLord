@@ -4,6 +4,9 @@ from io import StringIO
 from pathlib import Path
 
 # Init model
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from HairFastGAN.hair_swap import HairFast,get_parser
 
 # import requests
