@@ -11,8 +11,7 @@ scikit-learn==1.2.2
 Pillow==10.0.0
 opencv-python==4.7.0.72
 face-alignment==1.3.4
---find-links https://pypi.org/simple/dlib/
-dlib
+dlib==19.22.1
 albumentations==1.4.20
 scikit-image==0.22.0
 imageio==2.34.0
