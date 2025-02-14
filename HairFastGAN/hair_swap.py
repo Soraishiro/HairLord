@@ -10,6 +10,10 @@ import torchvision.transforms.functional as F
 from PIL import Image
 from torchvision.io import read_image, ImageReadMode
 
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from models.Alignment import Alignment
 from models.Blending import Blending
 from models.Embedding import Embedding
