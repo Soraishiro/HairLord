@@ -4,7 +4,8 @@ from io import StringIO
 from pathlib import Path
 
 # Init model
-from hair_swap import HairFast,get_parser
+from HairFastGAN.hair_swap import HairFast,get_parser
+
 # import requests
 from io import BytesIO
 from PIL import Image
