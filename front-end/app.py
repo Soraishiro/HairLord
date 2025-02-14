@@ -7,6 +7,9 @@ from pathlib import Path
 import os
 import sys
 
+# Install dlib
+os.system("pip install dlib --no-cache-dir")
+
 # Setup paths
 current_dir = Path(__file__).parent.absolute()
 parent_dir = current_dir.parent
