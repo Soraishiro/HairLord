@@ -6,8 +6,20 @@ from pathlib import Path
 # Init model
 import os
 import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from HairFastGAN.hair_swap import HairFast,get_parser
+
+# Setup paths
+current_dir = Path(__file__).parent.absolute()
+parent_dir = current_dir.parent
+hairfastgan_dir = parent_dir / "HairFastGAN"
+
+# Add both parent and HairFastGAN directories to Python path
+if str(parent_dir) not in sys.path:
+    sys.path.insert(0, str(parent_dir))
+if str(hairfastgan_dir) not in sys.path:
+    sys.path.insert(0, str(hairfastgan_dir))
+
+# Import after path setup
+from HairFastGAN.hair_swap import HairFast, get_parser
 
 # import requests
 from io import BytesIO

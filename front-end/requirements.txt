@@ -1,19 +1,37 @@
+# Core dependencies
 streamlit==1.42.0
-requests==2.32.3
-torch==2.5.1
-torchvision==0.20.1
-torchaudio==2.5.1
-Pillow==10.1.0
-face-alignment==1.4.1
-dill==0.2.7.1
-addict==2.4.0
-numpy==1.26.4
-matplotlib==3.7.5
-opencv-python-headless==4.10.0.84
+requests==2.31.0
+Pillow==10.0.0
+numpy
+matplotlib==3.7.1
+tqdm==4.66.1
+
+# PyTorch CPU dependencies
+torch
+torchmetrics
+torchvision
+
+# Computer Vision dependencies
+opencv-python==4.7.0.72
+face-alignment==1.3.4
+dlib==19.24.1
 albumentations==1.4.20
-tqdm==4.67.1
+scikit-image==0.22.0
+
+# ML/DL Utils
 einops==0.8.0
-fastapi==0.110.0  
-uvicorn==0.27.1  
-pydantic==2.10.6  
-python-multipart==0.0.9  
+addict==2.4.0
+dill==0.3.6
+scipy
+scikit-learn==1.2.2
+
+# API dependencies
+fastapi==0.110.0
+uvicorn==0.27.1
+pydantic==2.10.6
+python-multipart==0.0.9
+
+# Other dependencies
+PyYAML==6.0.1
+pandas==2.0.1
+networkx==3.2.1

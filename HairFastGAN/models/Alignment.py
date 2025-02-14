@@ -3,6 +3,7 @@ import torch.nn.functional as F
 import torchvision.transforms as T
 from torch import nn
 
+
 from models.CtrlHair.shape_branch.config import cfg as cfg_mask
 from models.CtrlHair.shape_branch.solver import get_hair_face_code, get_new_shape, Solver as SolverMask
 from models.Encoders import RotateModel
