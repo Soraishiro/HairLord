@@ -12,6 +12,8 @@ from torchvision.io import read_image, ImageReadMode
 
 import os
 import sys
+
+# Add HairFastGAN directory to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from models.Alignment import Alignment
